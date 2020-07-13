@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 
-s = 0
+y = 0
 
-for i in range(2**25):
-  d = [int(x) for x in list(str(i))]
-  pp = [x**5 for x in d]
-  if sum(pp) == i:
-    s += i
-
-print(s)
+while y <= 1000002:
+  for a in [x for x in range(0, 10)]:
+    for b in [x for x in range(0, 10) if x not in [a]]:
+      for c in [x for x in range(0, 10) if x not in [a, b]]:
+        for d in [x for x in range(0, 10) if x not in [a, b, c]]:
+          for e in [x for x in range(0, 10) if x not in [a, b, c, d]]:
+            for f in [x for x in range(0, 10) if x not in [a, b, c, d, e]]:
+              for g in [x for x in range(0, 10) if x not in [a, b, c, d, e, f]]:
+                for h in [x for x in range(0, 10) if x not in [a, b, c, d, e, f, g]]:
+                  for i in [x for x in range(0, 10) if x not in [a, b, c, d, e, f, g, h]]:
+                    for j in [x for x in range(0, 10) if x not in [a, b, c, d, e, f, g, h, i]]:
+                      y += 1

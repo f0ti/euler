@@ -1,5 +1,6 @@
 ## Euler Project Solutions
 
+### Mostly bruteforce
 ### More coming soon...
 
 ### Euler Project Profile
