@@ -14,3 +14,4 @@ while y <= 1000002:
                   for i in [x for x in range(0, 10) if x not in [a, b, c, d, e, f, g, h]]:
                     for j in [x for x in range(0, 10) if x not in [a, b, c, d, e, f, g, h, i]]:
                       y += 1
+print(a, b, c, d, e, f, g, h, i, j)
