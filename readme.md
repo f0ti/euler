@@ -1,6 +1,6 @@
 ## Euler Project Solutions
 
-Mostly bruteforce. Consider using [pypy](https://www.pypy.org/) for better performance
+Mostly bruteforce. Consider using [pypy](https://www.pypy.org/) for speed
 
 ### Euler Project Profile
 [https://projecteuler.net/profile/f0ti.png](https://projecteuler.net/profile/f0ti.png)
