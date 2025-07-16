@@ -3,7 +3,7 @@
 Mostly bruteforce. Consider using [pypy](https://www.pypy.org/) for speed
 
 ### Euler Project Profile
-[https://projecteuler.net/profile/f0ti.png](https://projecteuler.net/profile/f0ti.png)
+![https://projecteuler.net/profile/f0ti.png](https://projecteuler.net/profile/f0ti.png)
 
 ## License
 
